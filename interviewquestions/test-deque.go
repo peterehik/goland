@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	myQueue := deque.Deque[string]{}
-	myQueue.PushFront("something")
-	myQueue.PushFront("fuck off")
-	
-	fmt.Println(myQueue.PopFront())
-	fmt.Println(myQueue)
+	stack := deque.Deque[string]{}
+	stack.PushFront("something")
+	stack.PushFront("fuck off")
+
+	fmt.Println(stack.PopFront())
+	fmt.Println(stack)
 }
